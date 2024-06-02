@@ -1,0 +1,60 @@
+.projects-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slick-slider {
+  position: relative;
+}
+
+.project-card {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 80%;
+  height: 60vh;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto; /* Center the card */
+  overflow: hidden;
+  color: #fff; /* Ensure text is visible on the background image */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to make text stand out */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  margin: 10px 0;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

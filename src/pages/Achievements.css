@@ -1,0 +1,42 @@
+/* Achievements.css */
+
+.achievements-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .achievements-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px;
+    text-align: left;
+  }
+  
+  .achievement-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .achievement-item h4 {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+  }
+  
+  .achievement-item p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
